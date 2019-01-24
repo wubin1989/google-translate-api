@@ -1,5 +1,5 @@
 {
-  "name": "google-translate-api",
+  "name": "@wubin1989/google-translate-api",
   "version": "2.3.0",
   "description": "A free and unlimited API for Google Translate",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matheuss/google-translate-api.git"
+    "url": "git+https://github.com/wubin1989/google-translate-api.git"
   },
   "keywords": [
     "translate",
@@ -20,19 +20,15 @@
     "free",
     "language"
   ],
-  "author": {
-    "name": "Matheus Fernandes",
-    "email": "npm@matheus.top",
-    "url": "http://matheus.top"
-  },
+  "author": "wubin1989 <328454505@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matheuss/google-translate-api/issues"
+    "url": "https://github.com/wubin1989/google-translate-api/issues"
   },
-  "homepage": "https://github.com/matheuss/google-translate-api#readme",
+  "homepage": "https://github.com/wubin1989/google-translate-api#readme",
   "dependencies": {
     "configstore": "^2.0.0",
-    "google-translate-token": "latest",
+    "@wubin1989/google-translate-token": "latest",
     "got": "^6.3.0",
     "safe-eval": "^0.3.0"
   },
