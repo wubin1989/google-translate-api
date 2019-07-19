@@ -101,6 +101,7 @@ function translate(text, opts) {
 
             return result;
         }).catch(function (err) {
+            throw err;
             var e;
             e = new Error();
             if (err.statusCode !== undefined && err.statusCode !== 200) {
